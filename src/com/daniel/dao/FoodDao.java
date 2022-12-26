@@ -15,7 +15,7 @@ import com.daniel.util.DbUtil;
 public class FoodDao {
 
 	private Connection connection;
-
+	private int a = 1;
 	public FoodDao() {
 		connection = DbUtil.getConnection();
 	}
